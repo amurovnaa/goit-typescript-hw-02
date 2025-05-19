@@ -1,0 +1,12 @@
+.list {
+  display: flex;
+  flex-direction: row;
+  gap: 16px;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 16px;
+}
+.list li {
+  cursor: pointer;
+}
