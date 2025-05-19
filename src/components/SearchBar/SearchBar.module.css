@@ -30,7 +30,7 @@
   padding: 16px;
   background-color: #d36f6fcc;
   width: 160px;
-
+  letter-spacing: 0.07rem;
   padding: 8px 16px;
   border-radius: 16px;
   display: flex;
@@ -39,6 +39,8 @@
   color: #fff;
   font-size: 16px;
   transition: 0.3s;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
   &:hover {
     transform: scale(1.05);
   }
